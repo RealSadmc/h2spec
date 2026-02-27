@@ -6,8 +6,8 @@ ARG COMMIT
 ENV GO111MODULE=on \
     GOPROXY=https://proxy.golang.org
 
-WORKDIR /go/src/github.com/summerwind/h2spec
-COPY go.mod go.sum /go/src/github.com/summerwind/h2spec/
+WORKDIR /go/src/github.com/realsadmc/h2spec
+COPY go.mod go.sum /go/src/github.com/realsadmc/h2spec/
 RUN go mod download
 
 COPY . /workspace
