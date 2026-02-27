@@ -1,6 +1,6 @@
 package generic
 
-import "github.com/summerwind/h2spec/spec"
+import "github.com/realsadmc/h2spec/spec"
 
 var key = "generic"
 

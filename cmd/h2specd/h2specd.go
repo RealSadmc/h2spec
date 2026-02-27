@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/spf13/cobra"
-	"github.com/summerwind/h2spec"
-	"github.com/summerwind/h2spec/config"
+	"github.com/realsadmc/h2spec"
+	"github.com/realsadmc/h2spec/config"
 )
 
 var (
