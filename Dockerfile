@@ -1,4 +1,4 @@
-FROM golang:1.18 as builder
+FROM golang:1.26 as builder
 
 ARG VERSION
 ARG COMMIT
@@ -7,7 +7,7 @@ ENV GO111MODULE=on \
     GOPROXY=https://proxy.golang.org
 
 WORKDIR /go/src/github.com/summerwind/h2spec
-COPY go.mod go.sum .
+COPY go.mod go.sum
 RUN go mod download
 
 COPY . /workspace
