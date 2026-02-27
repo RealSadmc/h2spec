@@ -1,6 +1,6 @@
 package client
 
-import "github.com/summerwind/h2spec/spec"
+import "github.com/realsadmc/h2spec/spec"
 
 func ErrorHandling() *spec.ClientTestGroup {
 	tg := NewTestGroup("5.4", "Error Handling")

@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/summerwind/h2spec/config"
-	"github.com/summerwind/h2spec/spec"
+	"github.com/realsadmc/h2spec/config"
+	"github.com/realsadmc/h2spec/spec"
 	"golang.org/x/net/http2"
 )
 

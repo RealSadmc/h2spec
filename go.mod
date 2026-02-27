@@ -1,10 +1,11 @@
-module github.com/summerwind/h2spec
+module h2spec
 
 go 1.25.0
 
 require (
 	github.com/fatih/color v1.18.0
 	github.com/spf13/cobra v0.0.0-20170118185516-dc208f4211e7
+	github.com/realsadmc/h2spec 
 	golang.org/x/net v0.51.0
 )
 
